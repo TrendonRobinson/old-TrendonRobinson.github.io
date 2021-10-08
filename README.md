@@ -19,21 +19,10 @@ You are **responsible** for scheduling time with your squad to seek approval for
 ## Project Description
 
 For this project I will be taking inspiration from https://jacekjeznach.com/ with potentially a more vibrant color scheme The format will be the same with a different aesthetic
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
 https://www.figma.com/file/pZflckcx5Hxc92WRleBiIT/Untitled?node-id=0%3A1
-
-Wireframing Resources:
-
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
-
 
 ## Time/Priority Matrix 
 
@@ -78,7 +67,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 3hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
 | Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Total | H | 14.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -88,11 +77,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Interactive Banner | M | 4hr | hr |
 | Materialize | H | 4hr | -hr | hr |
 | Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Make own icon | L | 1hr | hr |
+| Total | H | 17hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ Materialize css
+ jQuery
+ React
+ Bootstrap
 
 ## Code Snippet
 
