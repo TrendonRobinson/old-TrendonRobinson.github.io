@@ -1,0 +1,51 @@
+/* INTRO */
+#intro {
+    
+}
+#intro div {
+    padding: 90px 90px 0px;
+}
+
+#intro h1 {
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+#intro h2 {
+    font-size: 30px;
+}
+
+#intro button {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 50px;
+}
+
+/* PORTFOLIO */
+#portfolio {
+    padding: 200px 90px 0px;
+}
+
+#portfolio h1 {
+    font-size: 70px;
+}
+
+#portfolio .display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    height: 100%;
+}
+
+#portfolio .img {
+    background-color: black;
+}
+
+
+#about {
+
+}
+
+#contact {
+
+}

@@ -1,0 +1,44 @@
+:root {
+    --greenbg: rgb(110, 202, 91);
+}
+
+body {
+    margin: 0px 0px;
+    /* background-attachment: fixed; */
+}
+
+.main{
+    display: flex;
+    flex-direction: right;
+
+}
+.site-setup{
+    display: grid;
+
+    /* background-color: blue; */
+
+    height: auto;
+    width: 100%;
+    padding-left: 16vh;
+}
+
+.navbar {
+    height: 100vh;
+    width: 16.5vh;
+    background-color: var(--greenbg);
+    position: fixed;
+}
+
+.navbar.logo{
+
+}
+
+
+section {  
+    height: auto;
+}
+
+section.intro {
+    padding-top: 20;
+}
+
