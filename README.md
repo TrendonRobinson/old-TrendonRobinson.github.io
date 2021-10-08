@@ -18,6 +18,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
+For this project I will be taking inspiration from https://jacekjeznach.com/ with potentially a more vibrant color scheme The format will be the same with a different aesthetic
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 ## Wireframes
@@ -26,6 +27,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 - [Mobile](https://i.imgur.com/P3iBEZf.jpg)
 - [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+https://www.figma.com/file/pZflckcx5Hxc92WRleBiIT/Untitled?node-id=0%3A1
 
 Wireframing Resources:
 
@@ -71,9 +73,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | 
 | Hamburger | H | 1hr | hr |
 | Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
 | Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
+| Other sections and flex| M | 2hr | hr|
 | Working with API | H | 3hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
 | Social Media Icons | L | 1hr |  hr |
