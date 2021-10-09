@@ -62,7 +62,7 @@
 #about {
     display: grid;
     padding: 10px 90px 0px;
-    height: 20px;
+    height: auto;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -82,5 +82,49 @@
 
 /* CONTACT */
 #contact {
+    padding: 100px 90px 0px;
+}
 
+#contact .contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contact form input {
+    margin: 0px 20px;
+}
+
+#contact form div {
+    padding-top: 20px;
+}
+
+#contact form .form-bottom {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#contact form input {
+    width: 100%;
+    height: 40px;
+}
+
+#contact #subject {
+
+}
+
+#contact #message {
+    margin-top: 20px;
+    padding-bottom: 50px;
+    height: 100px;
+    text-align: left;
+    /* align-item */
+}
+
+#contact .map {
+    
 }
