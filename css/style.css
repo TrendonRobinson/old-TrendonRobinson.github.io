@@ -19,24 +19,70 @@ body {
 
     height: auto;
     width: 100%;
-    padding-left: 16vh;
+    padding-left: 10vw;
 }
 
 .navbar {
-    height: 100vh;
-    width: 16.5vh;
+    height: 100vw;
+    width: 10vw;
     background-color: var(--greenbg);
     position: fixed;
 }
 
-.navbar.logo{
+.navbar-logo{
     background-color: white;
     position: sticky;
 
     width: 100%;
-    height: 18%;
+    height:initial;
+    text-align: center;
+    position: relative;
+    /* background-image: url("https://png.pngtree.com/element_our/20190601/ourlarge/pngtree-green-code-icon-image_1344718.jpg"); */
+    /* object-fit: cover; */
+}
 
-    /* background-size: 100% 100%; */
+.navbar-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    /* background-image: url("https://png.pngtree.com/element_our/20190601/ourlarge/pngtree-green-code-icon-image_1344718.jpg"); */
+}
+
+.navbar-logo h3{
+    margin: 5px;
+}
+.navbar-logo h5{
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+.navbar-nav-items {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.navbar-nav-items a {
+    color: white;
+    padding: 12px;
+    border-top: 1px solid white;
+    /* border-bottom: 1px solid white; */
+}
+
+.navbar-nav-items a:nth-child(5) {
+    border-bottom: 1px solid white;
+}
+
+.navbar-nav-items a:hover {
+    color: var(--greenbg);
+    background-color: white;
+    transition-duration: .5s;
 }
 
 
@@ -44,7 +90,9 @@ section {
     height: auto;
 }
 
+
 section.intro {
     /* padding-top: 20px; */
 }
+
 
