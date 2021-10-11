@@ -7,14 +7,26 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sectionStyles.css">
     <link rel="stylesheet" href="css/decor.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>TR - Web Developer</title>
 </head>
-<body>
+<body id="particles-js">
     <div class="background">
 
     </div>
     <div class="main">
+        <div class="hamburger-nav">
+            <div class="nav-icon">
+                
+            </div>
+            <div class="navbar-nav-items">
+                <a>About</a>
+                <a>Skills</a>
+                <a>Projects</a>
+                <a>Contact</a>
+                <a>Socials</a>
+            </div>
+        </div>
         <div class="navbar">
             <div class="navbar-logo">
                 <img src="/images/logo.png"></img>
@@ -32,15 +44,13 @@
         <div class="site-setup">
             <section id="intro">
                 <div>
-                    <h1>Hi,<br> I'm Trendon,<br> web developer</h1>
+                    <h1 class="animated-title">Hi,<br> I'm Trendon,<br> web developer</h1>
                     <h2>Web Developer</h2>
                     <button>Contact Me</button>
                 </div>
             </section>
             <section id="portfolio">
-                <h1 class="title">
-                    My Portfolio
-                </h1>
+                <h1 class="title animated-title">My Portfolio</h1>
                 <p>
                     A small gallery of recent projects chosen by me. I've done them all together with amazing people from companies around the globe. It's only a drop in the ocean compared to the entire list.
 Interested to see some more? Visit my work page.
@@ -63,15 +73,13 @@ Interested to see some more? Visit my work page.
             </section>
             <section id="about">
                 <div class="about-context">
-                    <h1 class="title">
-                        Me, Myself and I
-                    </h1>
+                    <h1 class="title animated-title">Me, Myself and I</h1>
                     <p>
                         The primary area of my interest is front-end. My passion for code has begun when Adobe Flash was a complete innovation, alongside with CSS 1.0 and HTML 4.01 as standards of the current web. For over a decade I had many opportunities to work in a vast spectrum of web technologies what let me gather a significant amount of various experience. Working for companies and individuals around the globe I met and learnt from amazing and ambitious people. I currently work remotely with a selected freelance client base and are open for new opportunities.
                     </p>
                 </div>
                 <div class="about-image">
-                    <!-- <img src="/images/logo.png"></img> -->
+                    <img src="/images/logo.png"></img>
                     <!-- set image background -->
                 </div>
             </section>
@@ -97,7 +105,8 @@ Interested to see some more? Visit my work page.
 
         </div>
     </div>
-    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

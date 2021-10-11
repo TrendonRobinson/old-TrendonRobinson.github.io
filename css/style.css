@@ -8,8 +8,8 @@ body {
 }
 
 .main{
-    display: flex;
-    flex-direction: right;
+    /* display: flex; */
+    /* flex-direction: right; */
 
 }
 .site-setup{
@@ -19,7 +19,7 @@ body {
 
     height: auto;
     width: 100%;
-    padding-left: 10vw;
+    padding-left: 5vw;
 }
 
 .navbar {
@@ -83,6 +83,31 @@ body {
     color: var(--greenbg);
     background-color: white;
     transition-duration: .5s;
+}
+
+.hamburger-nav .navbar-nav-items{
+    display: none;
+}
+
+.hamburger-nav {
+    height: 13vw;
+    background-color: black;
+}
+
+.hamburger-nav .nav-icon{
+    /* position: sticky; */
+    height: 100%;
+    width: 5vh;
+    background-color: blue;
+}
+
+.letter-highlight {
+    transition: .5s;
+}
+
+.letter-highlight:hover {
+    color: var(--greenbg);
+    transition: .5s;
 }
 
 

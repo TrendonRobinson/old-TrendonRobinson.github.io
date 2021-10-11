@@ -1,0 +1,61 @@
+/* Iphone */
+@media (max-width:600px)  {
+    div.navbar {
+        display: none;
+    }
+}
+
+/* Laptops */
+@media (min-width:600px) {
+    /* DECOR*/
+    .letter-highlight:hover{
+        font-size:60px;
+    }
+
+    /* MAIN */
+
+    .hamburger-nav {
+        display: none;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: right;
+    
+    }
+
+    .site-setup{
+        padding-left: 10vw;
+    }
+
+    div.navbar {
+        display: block;
+    }
+
+    /* INTRO */
+    #intro h1 {
+        font-size: 100px;
+        margin-bottom: 0px;
+    }
+
+    #intro h2 {
+        font-size: 10px;
+    }
+
+    #intro div {
+        padding: 90px 90px 0px;
+    }
+
+    #intro button {
+        font-size: 20px;
+        padding: 15px 50px;
+    }
+    
+
+    #portfolio h1 {
+        padding: 200px 90px 0px;
+        font-size: 70px;
+        margin-bottom: 40px
+    }
+
+}

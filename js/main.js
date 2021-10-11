@@ -1,35 +1,43 @@
-console.log($)
-// $.ajax({
-//     method: 'get',
-//     url: 'https://maps.googleapis.com/maps/api/distancematrix/json'
-// })
-// // success? add li for each breed to the ul
-// .then(response => {
+let animatedTitles = $('.animated-title')
+
+function findClosing(arr, i) {
+    let count = i
+    let getFullTag = arr[count]
     
-//     let dogsObjects = response.message
-    
-//     let listHtml = ''
-//     for (const key in dogsObjects){
-//         // $('ul').append($(`<li>${key}<li>`))
+    while (arr[count] != ">") {
+        count += 1
+        getFullTag += arr[count]
+    }
 
-//         listHtml +=`<li>${key}<li>`
-//     }
+    return getFullTag
+}
 
-//     $('ul').append(listHtml)
-// })
-// // failed? log error message
-// .catch(() => console.log('error'))
+for (let index = 0; index < animatedTitles.length; index++) {
+    const element = animatedTitles[index];
+    // console.log([...element.innerHTML])
+    let arr = [...element.innerHTML]
+        let string = ""
+        let getFullTag = ""
+        let ignoreText = false
+        
+        for (let i = 0; i < arr.length; i++) {
+            const letter = arr[i];
+            if (arr[i] == "<") {
+                ignoreText = true
+                getFullTag = findClosing(arr, i)
+                string += `${getFullTag}`
+                getFullTag = ""
+            }
 
-// function initMap() {
+            if (!ignoreText) {
+                string += `<span class="letter-highlight">${letter}</span>`
+            }
 
-//     console.log("test")
+            if (arr[i] == ">") {
+                ignoreText = false
+            }
 
-//     map = new google.maps.Map(document.getElementById("map"), {
-//       center: { lat: -34.397, lng: 150.644 },
-//       zoom: 8,
-//     });
+        }
+        element.innerHTML = string
+}
 
-//     console.log(map)
-// }
-
-// initMap()
