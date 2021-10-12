@@ -95,6 +95,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
+This code gets the innerHTML of elements with the "animatedTitles" class and it skips over tags suchs as '<br>' tags while wrapping the letters in "<span>" tags.
+
 ```js
 function findClosing(arr, i) {
     let count = i;
@@ -141,7 +143,7 @@ for (let index = 0; index < animatedTitles.length; index++) {
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
  
- Honestly I really don't remember running into any issue.
+ Honestly I really don't remember running into any issue aside from the one above. 
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
