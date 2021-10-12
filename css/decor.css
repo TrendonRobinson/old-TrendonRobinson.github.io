@@ -1,7 +1,11 @@
-.navbar {
-    filter: drop-shadow(10px 5px 5px #00000010);
+:root {
+    --blackbg: rgba(0, 0, 0, 0.5);
 }
 
-.letter-highlight:hover{
-    font-size:60px;
+.navbar {
+    filter: drop-shadow(10px 5px 10px var(--blackbg));
+}
+
+.letter-highlight:hover {
+    font-size: 60px;
 }

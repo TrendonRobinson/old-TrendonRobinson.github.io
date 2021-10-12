@@ -60,10 +60,14 @@
 
     /* PORTFOLIO */
 
+    #portfolio {
+    }
+
     #portfolio h1 {
-        padding: 200px 90px 0px;
+        padding: 200px 0px 0px;
         font-size: 70px;
         margin-bottom: 40px;
+        padding-left: 5vw;
     }
 
     /* ABOUT */

@@ -1,6 +1,7 @@
 :root {
     --greenbg: rgb(110, 202, 91);
     --darkbg: rgb(0, 2, 17);
+    --lightdarkbg: rgb(0, 6, 51);
 }
 
 body {
@@ -17,6 +18,11 @@ h5,
 h6,
 p {
     color: white;
+}
+
+h1,
+h {
+    font-family: "Roboto", sans-serif;
 }
 
 #particles-js {
@@ -61,7 +67,7 @@ p {
 .navbar {
     height: 100vh;
     width: 10vw;
-    background-color: var(--greenbg);
+    background-color: var(--darkbg);
     border: 2px solid var(--greenbg);
     position: fixed;
 }
@@ -102,7 +108,7 @@ p {
 .navbar-nav-items a {
     color: white;
     padding: 12px;
-    border-top: 1px solid white;
+    border-top: 1px solid var(--greenbg);
     /* border-bottom: 1px solid white; */
 }
 
