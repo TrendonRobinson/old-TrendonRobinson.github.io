@@ -82,9 +82,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Additional Libraries
  jQuery
+ 
  particles.js
+ 
  typewriter.js
+ 
  scrollreveal.js
+ 
+ materialize.css
 
 ## Code Snippet
 
