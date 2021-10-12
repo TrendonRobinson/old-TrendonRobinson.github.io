@@ -10,23 +10,23 @@
     <link rel="stylesheet" href="css/responsive.css">
     <title>TR - Web Developer</title>
 </head>
-<body id="particles-js">
-    <div class="background">
-
+<body>
+    <div class="body-particles"><div id="wrapper"></div></div>
+    <div id="particles-js"></div>
+    <div class="hamburger-nav">
+        <div class="hamburger-nav nav-icon">
+            <img id="hamburger-nav" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg">
+        </div>
+        <div id="hamburger-nav-items" class="hamburger-nav items">
+            <a>About</a>
+            <a>Skills</a>
+            <a>Projects</a>
+            <a>Contact</a>
+            <a>Socials</a>
+        </div>
     </div>
     <div class="main">
-        <div class="hamburger-nav">
-            <div class="nav-icon">
-                
-            </div>
-            <div class="navbar-nav-items">
-                <a>About</a>
-                <a>Skills</a>
-                <a>Projects</a>
-                <a>Contact</a>
-                <a>Socials</a>
-            </div>
-        </div>
+        
         <div class="navbar">
             <div class="navbar-logo">
                 <img src="/images/logo.png"></img>
@@ -79,34 +79,39 @@ Interested to see some more? Visit my work page.
                     </p>
                 </div>
                 <div class="about-image">
-                    <img src="/images/logo.png"></img>
+                    <img src="/images/logoTransparentBackground.png"></img>
                     <!-- set image background -->
                 </div>
             </section>
             <section id="contact">
+                <h1 class="title">Contact Me</h1>
                 <div class="contact-form">
                     <form>
                         <div class="name">
                             <input type="text" id="fname" placeholder="Name">
                         </div>
                         <div class="email">
-                            <input type="text" id="email" placeholder="Email">
+                            <input type="email" id="email" placeholder="Email">
                         </div>
                         <div class="form-bottom">
                             <input type="text" id="subject" placeholder="Subject">
                             <input type="text" id="message" placeholder="Message">
                         </div>
+
+                        <div class="submit">
+                            <button>Submit</button>
+                        </div>
                     </form>
                 </div>
-                <div id="map" class="map">
+                <!-- <div id="map" class="map">
                     
-                </div>
+                </div> -->
             </section>
-
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/particles.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

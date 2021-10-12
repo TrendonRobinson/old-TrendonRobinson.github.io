@@ -1,30 +1,24 @@
 /* Iphone */
-@media (max-width:600px)  {
+@media (max-width: 600px) {
     div.navbar {
         display: none;
     }
 }
 
 /* Laptops */
-@media (min-width:600px) {
-    /* DECOR*/
-    .letter-highlight:hover{
-        font-size:60px;
-    }
-
+@media (min-width: 600px) {
     /* MAIN */
 
     .hamburger-nav {
         display: none;
     }
 
-    .main{
+    .main {
         display: flex;
         flex-direction: right;
-    
     }
 
-    .site-setup{
+    .site-setup {
         padding-left: 10vw;
     }
 
@@ -50,12 +44,46 @@
         font-size: 20px;
         padding: 15px 50px;
     }
-    
+
+    /* PORTFOLIO */
 
     #portfolio h1 {
         padding: 200px 90px 0px;
         font-size: 70px;
-        margin-bottom: 40px
+        margin-bottom: 40px;
     }
 
+    /* ABOUT */
+
+    #about {
+        background-color: white;
+        display: grid;
+        padding: 10px 90px 0px;
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #about .about-image img {
+        display: block;
+    }
+
+    #about .about-context h1 {
+        font-size: 70px;
+    }
+
+    #about .about-context p {
+        line-height: 2;
+    }
+
+    /* CONTACT */
+
+    #contact {
+    }
+
+    #contact button {
+    }
+
+    #contact h1 {
+        font-size: 70px;
+    }
 }

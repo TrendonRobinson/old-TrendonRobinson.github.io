@@ -1,3 +1,7 @@
 .navbar {
     filter: drop-shadow(10px 5px 5px #00000010);
 }
+
+.letter-highlight:hover{
+    font-size:60px;
+}

@@ -1,10 +1,11 @@
 :root {
     --greenbg: rgb(110, 202, 91);
+    --darkgreenbg: rgb(86, 158, 72);
 }
 
 /* INTRO */
 #intro {
-    
+    padding-left: 5vw;
 }
 
 #intro div {
@@ -25,23 +26,33 @@
     text-align: center;
     padding: 10px 20px;
     color: var(--greenbg);
-    background: none;
+    background-color: white;
+    border: 1px solid var(--greenbg);
+}
+
+#intro button:hover() {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--greenbg);
     border: 1px solid var(--greenbg);
 }
 
 /* PORTFOLIO */
 #portfolio {
-    
 }
 
 #portfolio h1 {
     padding: 200px 0px 0px;
+    padding-left: 5vw;
     font-size: 40px;
-    margin-bottom: 40px
+    margin-bottom: 40px;
 }
 
 #portfolio p {
     padding: 0px 0px 0px;
+    padding-left: 5vw;
 }
 
 #portfolio .display {
@@ -64,10 +75,9 @@
 
 /* ABOUT */
 #about {
-    display: grid;
     padding: 10px 90px 0px;
+    padding-left: 5vw;
     height: auto;
-    grid-template-columns: 1fr 1fr;
 }
 
 #about .about-context {
@@ -75,39 +85,52 @@
 }
 
 #about .about-context h1 {
-    font-size: 70px;
+    font-size: 40px;
+}
+
+#about .about-context p {
+    line-height: 1;
 }
 
 #about .about-image {
     /* background-color: var(--greenbg); */
+    display: flex;
     width: 100%;
-    /* background-image: url("/images/logo.png");
-    background-size: cover; */
+    align-items: center;
 }
 
 #about .about-image img {
+    display: none;
     width: 100%;
-    margin-top: 50%;
-    /* object-fit: contain; */
 }
 
 /* CONTACT */
 #contact {
-    padding: 100px 90px 0px;
+    padding: 100px 5vw 5vh;
+    background-color: var(--greenbg);
+}
+
+#contact h1 {
+    color: white;
+    font-size: 40px;
 }
 
 #contact .contact-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
 }
 
 #contact form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr; */
 }
 
 #contact form input {
-    margin: 0px 20px 0px 0px;
+    margin: 0px 0px;
+    border: 0px;
+    background-color: white;
+    border-bottom: 2px solid var(--greenbg);
 }
 
 #contact form div {
@@ -124,8 +147,12 @@
     height: 40px;
 }
 
-#contact #subject {
-
+#contact button {
+    width: 100%;
+    height: 7vh;
+    color: var(--greenbg);
+    border: none;
+    background-color: white;
 }
 
 #contact #message {
@@ -134,8 +161,4 @@
     height: 100px;
     text-align: left;
     /* align-item */
-}
-
-#contact .map {
-
 }
