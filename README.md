@@ -95,7 +95,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
-This code gets the innerHTML of elements with the "animatedTitles" class and it skips over tags suchs as '<br>' tags while wrapping the letters in "<span>" tags.
+This code gets the innerHTML of elements with the "animatedTitles" class and it skips over tags suchs as 'br' tags while wrapping the letters in 'span' tags.
 
 ```js
 function findClosing(arr, i) {
