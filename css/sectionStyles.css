@@ -30,10 +30,7 @@
     border: 1px solid var(--greenbg);
 }
 
-#intro button:hover() {
-    font-size: 15px;
-    text-align: center;
-    padding: 10px 20px;
+#intro button:hover {
     color: white;
     background-color: var(--greenbg);
     border: 1px solid var(--greenbg);
@@ -153,6 +150,14 @@
     color: var(--greenbg);
     border: none;
     background-color: white;
+    transition: 1s;
+}
+
+#contact button:hover {
+    color: white;
+    background-color: var(--greenbg);
+    border: 10px solid white;
+    transition: 1s;
 }
 
 #contact #message {

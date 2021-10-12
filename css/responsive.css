@@ -1,3 +1,8 @@
+:root {
+    --greenbg: rgb(110, 202, 91);
+    --darkgreenbg: rgb(86, 158, 72);
+}
+
 /* Iphone */
 @media (max-width: 600px) {
     div.navbar {
@@ -33,7 +38,7 @@
     }
 
     #intro h2 {
-        font-size: 10px;
+        font-size: 30px;
     }
 
     #intro div {
@@ -43,6 +48,14 @@
     #intro button {
         font-size: 20px;
         padding: 15px 50px;
+    }
+
+    #intro button:hover {
+        font-size: 20px;
+        padding: 15px 50px;
+        color: white;
+        background-color: var(--greenbg);
+        transition: 0.5s;
     }
 
     /* PORTFOLIO */
@@ -56,7 +69,7 @@
     /* ABOUT */
 
     #about {
-        background-color: white;
+        /* background-color: white; */
         display: grid;
         padding: 10px 90px 0px;
         height: auto;

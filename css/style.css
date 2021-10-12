@@ -1,11 +1,22 @@
 :root {
     --greenbg: rgb(110, 202, 91);
+    --darkbg: rgb(0, 2, 17);
 }
 
 body {
     margin: 0px 0px;
-    /* background-color: var(--greenbg); */
+    background-color: var(--darkbg);
     /* background-attachment: fixed; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: white;
 }
 
 #particles-js {
@@ -51,11 +62,12 @@ body {
     height: 100vh;
     width: 10vw;
     background-color: var(--greenbg);
+    border: 2px solid var(--greenbg);
     position: fixed;
 }
 
 .navbar-logo {
-    background-color: white;
+    background-color: var(--darkbg);
     position: sticky;
 
     width: 100%;
