@@ -60,25 +60,23 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 2hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
+| Hamburger | H | 1hr | 1hr |
+| Project Previews | H | 3hr | 1hr |
+| Adding Form | H | 1.5hr|  1hr | 
+| Other sections and flex| M | 2hr | 1.5hr|
+| Working with API | H | 3hrs|  1hr | 
+| Responsive | H | 3hr | hr | 1hr |
 | Social Media Icons | L | 1hr |  hr |
-| Total | H | 14.5hrs| hrs |
+| Total | H | 14.5hrs| 7hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 1hr | hr |
-| Total | H | 17hrs| hrs |
+| Project Hover | L | 3hr | -hr | 1hr |
+| letters glow | L | 1hr | 1hr |
+| Materialize | H | 4hr | -hr | 30min |
+| Make own icon | L | 1hr | 10min |
+| Total | H | 17hrs| 2.4hrs |
 
 ## Additional Libraries
  jQuery
@@ -95,16 +93,55 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
+This code gets the innerHTML of elements with the "animatedTitles" class and it skips over tags suchs as 'br' tags while wrapping the letters in 'span' tags.
+
+```js
+function findClosing(arr, i) {
+    let count = i;
+    let getFullTag = arr[count];
+    
+    while (arr[count] != ">") {
+        count += 1;
+        getFullTag += arr[count];
+    }
+
+    return getFullTag
+}
+
+for (let index = 0; index < animatedTitles.length; index++) {
+    const element = animatedTitles[index];
+    // console.log([...element.innerHTML])
+    let arr = [...element.innerHTML];
+    let string = ""
+    let getFullTag = ""
+    let ignoreText = false
+        
+    for (let i = 0; i < arr.length; i++) {
+        const letter = arr[i];
+        if (arr[i] == "<") {
+            ignoreText = true
+            getFullTag = findClosing(arr, i)
+            string += `${getFullTag}`
+            getFullTag = ""
+        }
+
+        if (!ignoreText) {
+            string += `<span class="letter-highlight">${letter}</span>`
+        }
+
+        if (arr[i] == ">") {
+            ignoreText = false
+        }
+
+    }
+    element.innerHTML = string;
 }
 ```
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
  
- Honestly I really don't remember running into any issue.
+ Honestly I really don't remember running into any issue aside from the one above. 
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
