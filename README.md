@@ -60,25 +60,23 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 2hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
+| Hamburger | H | 1hr | 1hr |
+| Project Previews | H | 3hr | 1hr |
+| Adding Form | H | 1.5hr|  1hr | 
+| Other sections and flex| M | 2hr | 1.5hr|
+| Working with API | H | 3hrs|  1hr | 
+| Responsive | H | 3hr | hr | 1hr |
 | Social Media Icons | L | 1hr |  hr |
-| Total | H | 14.5hrs| hrs |
+| Total | H | 14.5hrs| 7hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 1hr | hr |
-| Total | H | 17hrs| hrs |
+| Project Hover | L | 3hr | -hr | 1hr |
+| letters glow | L | 1hr | 1hr |
+| Materialize | H | 4hr | -hr | 30min |
+| Make own icon | L | 1hr | 10min |
+| Total | H | 17hrs| 2.4hrs |
 
 ## Additional Libraries
  jQuery
