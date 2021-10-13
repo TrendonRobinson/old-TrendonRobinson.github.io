@@ -1,5 +1,9 @@
 :root {
+    --greenbg: rgb(110, 202, 91);
+    --darkbg: rgb(0, 2, 17);
     --blackbg: rgba(0, 0, 0, 0.5);
+    --lowlightglow: rgb(200, 200, 200);
+    --highlightglow: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -7,5 +11,25 @@
 }
 
 .letter-highlight:hover {
+    animation: glow 1s ease-in-out infinite alternate;
     font-size: 60px;
+    transition: 0.5s;
+}
+
+#intro .letter-highlight:hover {
+    font-size: 120px;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--lowlightglow),
+            0 0 40px var(--lowlightglow), 0 0 50px var(--lowlightglow),
+            0 0 60px var(--lowlightglow), 0 0 70px var(--lowlightglow);
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px var(--highlightglow),
+            0 0 40px var(--highlightglow), 0 0 50px var(--highlightglow),
+            0 0 60px var(--highlightglow), 0 0 70px var(--highlightglow),
+            0 0 80px var(--highlightglow);
+    }
 }

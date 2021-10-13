@@ -20,9 +20,9 @@ for (let index = 0; index < animatedTitles.length; index++) {
     const element = animatedTitles[index];
     // console.log([...element.innerHTML])
     let arr = [...element.innerHTML];
-    let string = ""
-    let getFullTag = ""
-    let ignoreText = false
+    let string = "";
+    let getFullTag = "";
+    let ignoreText = false;
         
     for (let i = 0; i < arr.length; i++) {
         const letter = arr[i];
