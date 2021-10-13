@@ -3,6 +3,9 @@ let hamNav = $('#hamburger-nav');
 let hamNavItems = $('#hamburger-nav-items');
 
 let animatedTitles = $('.animated-title');
+let lightUpTable = [
+    
+]
 
 function findClosing(arr, i) {
     let count = i;
