@@ -20,7 +20,7 @@
     font-size: 120px;
 }
 
-@keyframes glow {
+/* @keyframes glow {
     from {
         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--lowlightglow),
             0 0 40px var(--lowlightglow), 0 0 50px var(--lowlightglow),
@@ -32,4 +32,4 @@
             0 0 60px var(--highlightglow), 0 0 70px var(--highlightglow),
             0 0 80px var(--highlightglow);
     }
-}
+} *\
