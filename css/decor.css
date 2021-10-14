@@ -11,7 +11,7 @@
 }
 
 .letter-highlight:hover {
-    animation: glow 1s ease-in-out infinite alternate;
+    /* animation: glow 1s ease-in-out infinite alternate; */
     font-size: 60px;
     transition: 0.5s;
 }
