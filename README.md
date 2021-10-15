@@ -65,9 +65,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding Form | H | 1.5hr|  1hr | 
 | Other sections and flex| M | 2hr | 1.5hr|
 | Working with API | H | 3hrs|  1hr | 
-| Responsive | H | 3hr | hr | 1hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 14.5hrs| 7hrs |
+| Responsive | H | 3hr | 1hr | 1hr |
+| Social Media Icons | L | 1hr |  30min |
+| Total | H | 14.5hrs| 7.30hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -144,5 +144,5 @@ for (let index = 0; index < animatedTitles.length; index++) {
  Honestly I really don't remember running into any issue aside from the one above. 
 
 #### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+**ERROR**: Uncaught ReferenceError: $ is not defined at main.js:2                          
+**RESOLUTION**: Needed to change the order of the script tags
