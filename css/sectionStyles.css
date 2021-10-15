@@ -74,6 +74,12 @@
     align-items: center;
 }
 
+#portfolio .display .img a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #portfolio .display .img img {
     width: 85%;
     height: auto;
