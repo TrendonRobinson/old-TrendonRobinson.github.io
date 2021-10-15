@@ -99,6 +99,9 @@
 }
 
 #about .about-context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: initial;
 }
 
