@@ -72,8 +72,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | 1hr |
-| letters glow | L | 1hr | 1hr |
 | Materialize | H | 4hr | -hr | 30min |
 | Make own icon | L | 1hr | 10min |
 | Total | H | 17hrs| 2.4hrs |
