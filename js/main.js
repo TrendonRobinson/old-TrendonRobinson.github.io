@@ -7,6 +7,13 @@ let lightUpTable = [
     
 ]
 
+let app = document.getElementById('dev-title');
+
+let typewriter = new Typewriter(app, {
+  loop: true,
+  delay: 75,
+});
+
 function findClosing(arr, i) {
     let count = i;
     let getFullTag = arr[count];
@@ -58,14 +65,6 @@ hamNav.click(function(element){
     }
 })
 
-
-var app = document.getElementById('dev-title');
-
-var typewriter = new Typewriter(app, {
-  loop: true,
-  delay: 75,
-});
-
 typewriter
   .pauseFor(2500)
   .typeString('Web Developer')
@@ -75,6 +74,5 @@ typewriter
   .pauseFor(1000)
   .deleteChars(24)
   .start();
-
 
 ScrollReveal().reveal('h1', { delay: 500 });
