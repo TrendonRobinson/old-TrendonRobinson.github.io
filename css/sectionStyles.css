@@ -55,20 +55,40 @@
 
 #portfolio .display {
     background-color: rgb(110, 202, 91);
-    padding: 100px 100px;
-    height: 225px;
+    padding: 5vh 2vw;
 }
 
 #portfolio .display div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
     height: 100%;
     padding: 0px 0px;
 }
 
+#portfolio .display .image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#portfolio .display .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .display .img img {
+    width: 85%;
+    height: auto;
+    transition: 0.5s;
+}
+
+#portfolio .display .img img:hover {
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
 #portfolio .img {
-    background-color: black;
+    /* background-color: black; */
+    height: 100%;
 }
 
 /* ABOUT */

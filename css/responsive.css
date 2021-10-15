@@ -13,9 +13,17 @@
         padding: 2px 20%;
     }
 
+    /* INTRO */
+
     #intro div button {
         padding: 20px 20px;
     }
+
+    /* PORTFOLIO */
+
+    /* #portfolio .display .img {
+        height: 90%;
+    } */
 }
 
 /* Laptops */
