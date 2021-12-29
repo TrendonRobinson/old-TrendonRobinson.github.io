@@ -44,4 +44,8 @@ nav a {
   text-decoration: none;
   margin: 0px 15px;
 }
+
+nav .Link-Container.active {
+  border-bottom: 3px solid white;
+}
 /*# sourceMappingURL=NavBar.css.map */

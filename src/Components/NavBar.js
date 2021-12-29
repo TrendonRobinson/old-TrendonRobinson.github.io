@@ -12,18 +12,19 @@ import LogoDevIcon from '@mui/icons-material/LogoDev';
 
 
 export default function NavBar() {
+
     return (
         <nav>
                 <div className="Logo">
                     <LogoDevIcon/>
                 </div>
                 <div className="Links">
-                    <Link to="/">Home</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/services">Services</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/skills">Skills</Link>
-                    <Link to="/contact">Contact</Link>
+                    <div className="Link-Container"><Link id="HomeLink" to="/">Home</Link></div>
+                    <div className="Link-Container"><Link to="/projects">Projects</Link></div>
+                    <div className="Link-Container"><Link to="/services">Services</Link></div>
+                    <div className="Link-Container"><Link to="/about">About</Link></div>
+                    <div className="Link-Container"><Link to="/skills">Skills</Link></div>
+                    <div className="Link-Container"><Link to="/contact">Contact</Link></div>
                 </div>
                 <div className="Socials">
 

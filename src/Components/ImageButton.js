@@ -4,23 +4,6 @@ import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Typography from '@mui/material/Typography';
 
-const images = [
-  {
-    url: '/static/images/buttons/breakfast.jpg',
-    title: 'Breakfast',
-    width: '40%',
-  },
-  {
-    url: '/static/images/buttons/burgers.jpg',
-    title: 'Burgers',
-    width: '30%',
-  },
-  {
-    url: '/static/images/buttons/camera.jpg',
-    title: 'Camera',
-    width: '30%',
-  },
-];
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
   position: 'relative',
@@ -92,30 +75,19 @@ export default function ButtonBases(props) {
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
       <ImageButton
+          className = "square"
           focusRipple
           key={props.image.title}
-          style={{
-            width: props.image.width,
-          }}
         >
           <ImageSrc style={{ backgroundImage: `url(${props.image.url})` }} />
-          <ImageBackdrop className="MuiImageBackdrop-root" />
-          <Image>
-            <Typography
-              component="span"
-              variant="subtitle1"
-              color="inherit"
-              sx={{
-                position: 'relative',
-                p: 4,
-                pt: 2,
-                pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
-              }}
-            >
+          <div className='image'>
+            {/* <img src={props.image.url} /> */}
+          </div>
+          <div className='description'>
+            <h1>
               {props.image.title}
-              <ImageMarked className="MuiImageMarked-root" />
-            </Typography>
-          </Image>
+            </h1>
+          </div>
         </ImageButton>
     </Box>
   );

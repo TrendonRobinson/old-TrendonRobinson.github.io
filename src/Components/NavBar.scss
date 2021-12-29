@@ -33,4 +33,8 @@ nav {
         text-decoration: none;
         margin: 0px 15px;
     }
+
+    .Link-Container.active {
+        border-bottom: 3px solid white;
+    }
 }
