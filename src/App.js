@@ -9,6 +9,8 @@ import {
 import Projects from './Pages/Projects'
 import Home from './Pages/Home'
 
+import NavBar from './Components/NavBar'
+
 const App = () => {
   let routes = useRoutes([
     { path: "/", element: <Home /> },
@@ -20,6 +22,7 @@ const App = () => {
 const AppWrapper = () => {
   return (
     <Router>
+      <NavBar/>
       <App />
     </Router>
   );

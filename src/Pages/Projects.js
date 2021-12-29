@@ -1,10 +1,18 @@
-import './Projects.css';
+import './Project.css';
+
+import ImageButton from '../Components/ImageButton'
 
 function Projects() {
     return (
         <div className="Projects">
-            <div className=''>
-                dssadad
+            <div className='section'>
+                <ImageButton image={
+                    {
+                        url: 'https://i.ibb.co/nQFwB6X/Vocab-Builder.png',
+                        title: 'Vocab Builder',
+                        width: '20%'
+                    }
+                }/>
             </div>
         </div>
     );
